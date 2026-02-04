@@ -1,0 +1,45 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e0b8" />
+      <stop offset="50%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#ffd700" />
+    </linearGradient>
+    <linearGradient id="waveGradient2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#00e0b8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#000000" stroke="url(#waveGradient)" stroke-width="16" />
+  
+  <!-- Top wave -->
+  <path
+    d="M80 210 Q150 140, 220 210 T360 210 T500 210"
+    stroke="url(#waveGradient)"
+    stroke-width="28"
+    stroke-linecap="round"
+    fill="none"
+  />
+  
+  <!-- Middle wave -->
+  <path
+    d="M40 280 Q130 210, 220 280 T400 280 T520 280"
+    stroke="url(#waveGradient2)"
+    stroke-width="24"
+    stroke-linecap="round"
+    fill="none"
+    opacity="0.8"
+  />
+  
+  <!-- Bottom wave -->
+  <path
+    d="M60 350 Q150 280, 240 350 T420 350 T520 350"
+    stroke="#ffd700"
+    stroke-width="20"
+    stroke-linecap="round"
+    fill="none"
+    opacity="0.6"
+  />
+</svg>

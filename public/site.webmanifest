@@ -1,0 +1,17 @@
+{
+  "name": "Port City Social Media",
+  "short_name": "PCSM",
+  "description": "AI Training & Digital Marketing for North Carolina Businesses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00e0b8",
+  "icons": [
+    {
+      "src": "/wave-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
